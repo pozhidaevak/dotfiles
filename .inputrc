@@ -38,3 +38,8 @@ set convert-meta off
 
 # Use Alt/Meta + Delete to delete the preceding word
 "\e[3;3~": kill-word
+
+# Use [Tab] and [Shift]+[Tab] to cycle through all the possible completions:
+# Not compatible with previous options
+#"\t": menu-complete
+#"\e[Z": menu-complete-backward
